@@ -28,13 +28,13 @@ def make_plot(counts):
     time = []
 
     for val in counts:
-	positiveTuple = val[0]
-	positiveCounts.append(positiveTuple[1])
-	negativeTuple = val[1]
-	negativeCounts.append(negativeTuple[1])
+	   positiveTuple = val[0]
+	   positiveCounts.append(positiveTuple[1])
+	   negativeTuple = val[1]
+	   negativeCounts.append(negativeTuple[1])
 
     for i in range(len(counts)):
-	time.append(i)
+	   time.append(i)
 
     posLine = plt.plot(time, positiveCounts,'bo-', label='Positive')
     negLine = plt.plot(time, negativeCounts,'go-', label='Negative')
