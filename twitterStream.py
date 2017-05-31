@@ -61,9 +61,9 @@ def load_wordlist(filename):
 
 def wordSentiment(word,pwords,nwords):
     if word in pwords:
-	return ('positive', 1)
+	    return ('positive', 1)
     elif word in nwords:
-	return ('negative', 1)
+	    return ('negative', 1)
 
 
 def updateFunction(newValues, runningCount):
