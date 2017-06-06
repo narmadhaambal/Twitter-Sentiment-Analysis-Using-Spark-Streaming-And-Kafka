@@ -52,7 +52,7 @@ def load_wordlist(filename):
     This function returns a list or set of words from the given filename.
     """	
     words = {}
-    f = open(filename, 'rU')
+    f = open(filename, 'r')
     text = f.read()
     text = text.split('\n')
     for line in text:
